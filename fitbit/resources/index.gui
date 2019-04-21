@@ -1,0 +1,114 @@
+<svg>
+  <svg viewport-fill="lightblue">
+    <image x="5%" y="10" width="50" height="50" href="icon.png" />
+  </svg>
+  
+  <svg viewport-fill="lightblue">
+    <image x="78%" y="10" width="50" height="50" href="icon2.png" />
+  </svg>
+  
+  <!-- Wake At Button -->
+  <svg>
+    <use id="calculate_button" href="#push-button" y="240" height="60"
+      fill="fb-blue" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="Wake At" />
+      <set href="#text" attributeName="fill" to="fb-black" />
+      <set href="#text" attributeName="y" to="12" />
+    </use>
+  </svg>
+  
+  <!-- Sleep At Button -->
+  <svg>
+    <use id="calculate_button2" href="#push-button" y="170" height="60"
+      fill="fb-blue" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="Sleep At" />
+      <set href="#text" attributeName="fill" to="fb-black" />
+      <set href="#text" attributeName="y" to="12" />
+    </use>
+  </svg>
+  
+    <!-- Back Button -->
+  <svg>
+    <use id="back_button" href="#push-button" y="240" height="60"
+      fill="fb-blue" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="Back" />
+      <set href="#text" attributeName="fill" to="fb-black" />
+      <set href="#text" attributeName="y" to="12" />
+    </use>
+  </svg>
+
+  <!-- Title Text -->
+  <svg>
+    <use id="mixedtext" href="#mixed-text-center-top" height="100%" fill="white" y="10">
+      <set href="#header/text" attributeName="text-buffer" to="Header Text"/>
+      <!--<set href="#copy/text" attributeName="text-buffer" to="Sleep Calculator"/>-->
+    </use>  
+  </svg>
+
+  <!-- Result -->  
+  
+  <svg viewport-fill="black">
+    <use id="result" href="#marquee-text" font-size="30" y="22%" x="3%" width="42%"
+      height="20%" fill="white" mode="1" value="50">
+      <rect width="42%" height="15%" fill="black" opacity="0.2" />
+      <set href="group/text" attributeName="text-buffer"
+           to="          " />
+      <set href="group/separator" attributeName="width" to="150" />
+    </use>
+    <use id="result2" href="#marquee-text" font-size="30" y="22%" x="53%" width="42%"
+      height="20%" fill="white" mode="1" value="50">
+      <rect width="42%" height="15%" fill="black" />
+      <set href="group/text" attributeName="text-buffer"
+           to="          " />
+      <set href="group/separator" attributeName="width" to="150" />
+    </use>
+    <use id="result3" href="#marquee-text" font-size="30" y="40%" x="3%" width="42%"
+      height="20%" fill="white" mode="1" value="50">
+      <rect width="42%" height="15%" fill="black" opacity="0.2" />
+      <set href="group/text" attributeName="text-buffer"
+           to="          " />
+      <set href="group/separator" attributeName="width" to="150" />
+    </use>
+    <use id="result4" href="#marquee-text" font-size="30" y="40%" x="53%" width="42%"
+      height="20%" fill="white" mode="1" value="50">
+      <rect width="42%" height="15%" fill="black" opacity="0.2" />
+      <set href="group/text" attributeName="text-buffer"
+           to="          " />
+      <set href="group/separator" attributeName="width" to="150" />
+    </use>    
+    <use id="result5" href="#marquee-text" font-size="30" y="58%" x="3%" width="42%"
+      height="20%" fill="white" mode="1" value="50">
+      <rect width="42%" height="15%" fill="black" opacity="0.2" />
+      <set href="group/text" attributeName="text-buffer"
+           to="          " />
+      <set href="group/separator" attributeName="width" to="150" />
+    </use>    
+    <use id="result6" href="#marquee-text" font-size="30" y="58%" x="53%" width="42%"
+      height="20%" fill="white" mode="1" value="50">
+      <rect width="42%" height="15%" fill="black" opacity="0.2" />
+      <set href="group/text" attributeName="text-buffer"
+           to="          " />
+      <set href="group/separator" attributeName="width" to="150" />
+    </use>    
+  </svg>
+  
+  <!-- Hour -->
+  <svg y="80" height="50">
+    <use id="hour" href="#square-button" x="0%" width="35%" fill="fb-blue" font-family="System-Regular" font-size="30">
+      <set href="#text" attributeName="text-buffer" to="00" />
+      <set href="#text" attributeName="fill" to="fb-peach" />
+    </use>
+  
+    <!-- Minutes Button -->    
+    <use id="min" href="#square-button" x="35%" width="35%" fill="fb-blue" font-family="System-Regular" font-size="30">
+      <set href="#text" attributeName="text-buffer" to="00" />
+      <set href="#text" attributeName="fill" to="fb-peach" />
+    </use>
+    
+    <!-- AM/PM Button -->  
+    <use id="am_pm" href="#square-button" x="70%" width="30%" fill="fb-blue" font-family="System-Regular" font-size="30">
+      <set href="#text" attributeName="text-buffer" to="00" />
+      <set href="#text" attributeName="fill" to="fb-peach" />
+    </use>
+  </svg>
+</svg>

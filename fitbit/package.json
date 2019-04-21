@@ -1,0 +1,24 @@
+{
+  "fitbit": {
+    "appUUID": "abb1a3ed-65fe-4cfd-83dd-c0d351c5502b",
+    "appType": "app",
+    "appDisplayName": "SleepCalc",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#3f51b5",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "SleepCalc"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
